@@ -1,0 +1,230 @@
+html {
+    height: 7000px;
+    margin: auto;
+    width:1920px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Garamond", serif;
+}
+
+html {
+    height: 100%
+}
+
+body {
+    min-height: 100vh;
+    background: url('Homepage_Content.jpg') no-repeat; position: relative;
+    background-color: black
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+
+}
+
+.logo {
+    font-size: 32px;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.navbar a {
+    position: relative;
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+.navbar a::before {
+    content:'';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: white;
+}
+
+.navbar a:hover::before {
+    width: 100%;
+}
+
+.wrapper-main {
+    position: relative;
+    top: 3940px;
+    margin-left: 1220px;
+}
+
+.btn {
+   position: relative;
+   top: 60px;
+   margin-left: 780px;
+   height: 70px;
+   width:300px;
+   border-width: 5px;
+
+}
+
+.btn2 {
+    position: relative;
+    top: 743px;
+    margin-left: 60px;
+    height: 70px;
+    width:395px;
+ 
+ }
+
+ .btn3 {
+    position: relative;
+    top: 1920px;
+    margin-left: 770px;
+    height: 70px;
+    width:300px;
+ 
+}
+
+.btn4 {
+    position: relative;
+    top: 2260px;
+    margin-left: 448px;
+    height: 70px;
+    width:360px;
+}
+    
+.btn5 {
+    position: relative;
+    top: 2510px;
+    margin-left: 446px;
+    height: 70px;
+    width:360px;
+}
+
+.youtube {
+    position: realtive;
+    scale: 3;
+    margin-left: 430px
+}
+
+.spotify {
+    position: relative; 
+    scale: 3;
+    margin-left: 80px; 
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    }
+
+#container {
+    min-height: 100%;
+}
+
+#main {
+    overflow: auto;
+    padding-bottom: 100px;
+}
+
+#footer {
+    background-color:black;
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+    position: relative;
+    top: 4000px;
+}
+
+.footercontainer{
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+
+.socialicons{
+    display: flex;
+    justify-content: center;
+}
+.socialicons a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.socialicons a i {
+    font-size: 2em;
+    color: black;
+    opacity: 0.9;
+}
+
+/* Hover Effect on Social Media Icons*/
+.socialicons a:hover{
+    background-color:#111;
+    transition: 0.5s;
+}
+
+.socialicons a:hover i{
+    color: white;
+    transition: 0.5s;
+}
+
+.footernav{
+    margin: 30px 0;
+}
+
+.footernav ul{
+    display: flex;
+    justify-content: center;
+}
+
+.footernav ul li a{
+    Color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+.footernav ul li a:hover{
+    opacity: 1;
+}
+
+.footerbottom{
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+.footerbottom p{
+    color: white;
+}
+
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
